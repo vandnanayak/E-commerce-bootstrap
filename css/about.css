@@ -1,0 +1,26 @@
+nav ul li:hover .dropdown-menu{
+    display: block !important;
+}
+#cardimg{
+    transform: translateY(50px);
+    transition: 0.5s;
+}
+#cardtop:hover #cardimg{
+    transform: translateY(0);
+}
+.bgimg{
+    height: 50vh;
+    background-image: url(../img/aboutfix.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+
+}
+.img2{
+    background-image: url(../img/slideimageabout.jpg);
+    height: 50vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    
+}

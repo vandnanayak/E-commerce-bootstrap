@@ -1,0 +1,773 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/category.css">
+  </head>
+<body>
+    <!-- navbar started -->
+    <nav class="navbar navbar-expand-lg bg-body-tertiary">
+        <div class="container-fluid">
+          <a class="navbar-brand" style="width: 7% !important;" href="#"><img src="img/logo.png" alt="" class="w-100"></a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="about.html">About</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="contact.html">Contact</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#">Catagories</a>
+                <ul class="dropdown-menu lh-lg px-3">
+                  <li><a class="dropdown-item" href="#"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-arrow-right"><line x1="5" y1="12" x2="19" y2="12"></line><polyline points="12 5 19 12 12 19"></polyline></svg>Wordpress</a></li>
+                  <li><a class="dropdown-item" href="#"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-arrow-right"><line x1="5" y1="12" x2="19" y2="12"></line><polyline points="12 5 19 12 12 19"></polyline></svg>E-commerce</a></li>
+                  <li><a class="dropdown-item" href="#"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-arrow-right"><line x1="5" y1="12" x2="19" y2="12"></line><polyline points="12 5 19 12 12 19"></polyline></svg>Site Tamplete</a></li>
+                  <li><a class="dropdown-item" href="#"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-arrow-right"><line x1="5" y1="12" x2="19" y2="12"></line><polyline points="12 5 19 12 12 19"></polyline></svg>Marketing Tamplete</a></li>
+              <li><a class="dropdown-item" href="#"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-arrow-right"><line x1="5" y1="12" x2="19" y2="12"></line><polyline points="12 5 19 12 12 19"></polyline></svg>CSM Tamplete</a></li>
+              <li><a class="dropdown-item" href="#"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-arrow-right"><line x1="5" y1="12" x2="19" y2="12"></line><polyline points="12 5 19 12 12 19"></polyline></svg>Blogging Tamplete</a></li>
+              <center> <button class="btn btn-outline-dark my-3">More Tampletes<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-arrow-right"><line x1="5" y1="12" x2="19" y2="12"></line><polyline points="12 5 19 12 12 19"></polyline></svg></button></center>
+                </ul>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="support.html">Support</a>
+                <ul class="dropdown-menu lh-lg px-3">
+                 
+                  <li><a class="dropdown-item" href="#"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-arrow-right"><line x1="5" y1="12" x2="19" y2="12"></line><polyline points="12 5 19 12 12 19"></polyline></svg>Feedback</a></li>
+                  <li><a class="dropdown-item" href="#"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-arrow-right"><line x1="5" y1="12" x2="19" y2="12"></line><polyline points="12 5 19 12 12 19"></polyline></svg>Help Center</a></li>
+                  <li><a class="dropdown-item" href="#"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-arrow-right"><line x1="5" y1="12" x2="19" y2="12"></line><polyline points="12 5 19 12 12 19"></polyline></svg>Make Call</a></li>
+          
+                </ul>
+              
+              </li>
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#">Start Selling</a>
+                <ul class="dropdown-menu lh-lg px-3">
+                 
+                  <li><a class="dropdown-item" href="#"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-arrow-right"><line x1="5" y1="12" x2="19" y2="12"></line><polyline points="12 5 19 12 12 19"></polyline></svg>Your Own Wedsite</a></li>
+                  <li><a class="dropdown-item" href="#"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-arrow-right"><line x1="5" y1="12" x2="19" y2="12"></line><polyline points="12 5 19 12 12 19"></polyline></svg>Your Copany</a></li>
+                  <li><a class="dropdown-item" href="#"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-arrow-right"><line x1="5" y1="12" x2="19" y2="12"></line><polyline points="12 5 19 12 12 19"></polyline></svg>Work With Us</a></li>
+          
+                </ul>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-grid me-2" style="height: 17px; width: 17px;"><rect x="3" y="3" width="7" height="7"></rect><rect x="14" y="3" width="7" height="7"></rect><rect x="14" y="14" width="7" height="7"></rect><rect x="3" y="14" width="7" height="7"></rect></svg>Our Product</a>
+                <ul class="dropdown-menu lh-lg px-3">
+                 
+                  <li><a class="dropdown-item" href="#"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-arrow-right"><line x1="5" y1="12" x2="19" y2="12"></line><polyline points="12 5 19 12 12 19"></polyline></svg>Web Application</a></li>
+                  <li><a class="dropdown-item" href="#"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-arrow-right"><line x1="5" y1="12" x2="19" y2="12"></line><polyline points="12 5 19 12 12 19"></polyline></svg>React Application</a></li>
+                  <li><a class="dropdown-item" href="#"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-arrow-right"><line x1="5" y1="12" x2="19" y2="12"></line><polyline points="12 5 19 12 12 19"></polyline></svg>Pure Website</a></li>
+                  <li><a class="dropdown-item" href="#"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-arrow-right"><line x1="5" y1="12" x2="19" y2="12"></line><polyline points="12 5 19 12 12 19"></polyline></svg>Application</a></li>
+                  <li><a class="dropdown-item" href="#"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-arrow-right"><line x1="5" y1="12" x2="19" y2="12"></line><polyline points="12 5 19 12 12 19"></polyline></svg>Software</a></li>
+                </ul>
+              </li>
+            </ul>
+            <form class="d-flex align-items-center gap-3" role="search">
+              <a href="login.html" class="btn btn-outline-primary"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-log-in me-2"><path d="M15 3h4a2 2 0 0 1 2 2v14a2 2 0 0 1-2 2h-4"></path><polyline points="10 17 15 12 10 7"></polyline><line x1="15" y1="12" x2="3" y2="12"></line></svg>Login</a>
+              <a href="signup.html" class="btn btn-primary" type="submit"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-user me-2"><path d="M20 21v-2a4 4 0 0 0-4-4H8a4 4 0 0 0-4 4v2"></path><circle cx="12" cy="7" r="4"></circle></svg>Get Started</a>
+              <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-shopping-cart"><circle cx="9" cy="21" r="1"></circle><circle cx="20" cy="21" r="1"></circle><path d="M1 1h4l2.68 13.39a2 2 0 0 0 2 1.61h9.72a2 2 0 0 0 2-1.61L23 6H6"></path></svg>
+              
+            </form>
+          </div>
+        </div>
+      </nav>
+    <!-- navbar end -->
+
+    <!-- main section start -->
+    <div class="px-4  my-5 text-center">
+        <h1 class="display-5 fw-bold text-body-emphasis">Website Templates and Themes Category wise</h1>
+        <div class="col-lg-6 mx-auto">
+          <p class="lead mb-4 fs-6">Choose from over 51,200 website templates and themes. Explore items created by our global community of independent designers and developers, confident they're hand-reviewed by us.</p>
+          <div class="d-grid gap-2 d-sm-flex justify-content-sm-center">
+            <input class="form-control me-2" type="search" placeholder="Search within this category" aria-label="Search">
+        <button class="btn btn-outline-success" type="submit">Search</button>
+          </div>
+        </div>
+      </div>
+    <!-- main section end -->
+
+    <!--start  Feature section -->
+    <div class="container px-4 py-5 border border-1 " id="icon-grid ">
+      <h2 class="pb-3 border-bottom fs-4">All Categories <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-grid"><rect x="3" y="3" width="7" height="7"></rect><rect x="14" y="3" width="7" height="7"></rect><rect x="14" y="14" width="7" height="7"></rect><rect x="3" y="14" width="7" height="7"></rect></svg> </h2>
+  
+      <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 row-cols-lg-4 g-4 py-5">
+        <div class="col d-flex align-items-start" id="feature">
+          <div>
+           <a  class="text-dark  text-decoration-none" href="#">Site <svg id="featureicon" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-chevron-right mx-3 cat2inner"><polyline points="9 18 15 12 9 6"></polyline></svg></a>
+          </div>
+        </div>
+        <div class="col d-flex align-items-start mb-4" id="feature">
+          <div>
+          <a  class="text-dark  text-decoration-none"href="#">E-commerce <svg id="featureicon" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-chevron-right mx-3 cat2inner"><polyline points="9 18 15 12 9 6"></polyline></svg></a>  
+          </div>
+        </div>
+        <div class="col d-flex align-items-start mb-4" id="feature">
+          <div>
+           <a  class="text-dark  text-decoration-none"href="#">Wordpress <svg id="featureicon" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-chevron-right mx-3 cat2inner"><polyline points="9 18 15 12 9 6"></polyline></svg></a>
+          </div>
+        </div>
+        <div class="col d-flex align-items-start mb-4" id="feature">
+          <div>
+          <a class="text-dark  text-decoration-none" href="#">Marketing <svg id="featureicon" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-chevron-right mx-3 cat2inner"><polyline points="9 18 15 12 9 6"></polyline></svg></a> 
+          </div> 
+        </div>
+        <div class="col d-flex align-items-start mb-4" id="feature">
+          <div>
+           <a class="text-dark text-decoration-none" href="#">UI Template <svg id="featureicon" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-chevron-right mx-3 cat2inner"><polyline points="9 18 15 12 9 6"></polyline></svg></a>
+          </div>
+        </div>
+        <div class="col d-flex align-items-start" id="feature">
+          <div>
+            <a class="text-dark text-decoration-none" href="#">CMS <svg id="featureicon" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-chevron-right mx-3 cat2inner"><polyline points="9 18 15 12 9 6"></polyline></svg></a>
+          </div>
+        </div>
+        <div class="col d-flex align-items-start" id="feature">
+          <div>
+           <a  class="text-dark  text-decoration-none"href="#">Template Kits <svg id="featureicon" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-chevron-right mx-3 cat2inner"><polyline points="9 18 15 12 9 6"></polyline></svg></a> 
+          </div>
+        </div>
+        <div class="col d-flex align-items-start" id="feature">
+          <div>
+            <a class="text-dark  text-decoration-none" href="#">Blogging <svg id="featureicon" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-chevron-right mx-3 cat2inner"><polyline points="9 18 15 12 9 6"></polyline></svg></a>
+          </div>
+        </div>
+      </div>
+      <a class="text-dark text-decoration-none fw-bold me-4" href="#">Browser New </a> <a class="text-dark text-decoration-none fw-bold" href="">Best Seller</a>
+    </div>
+    <!-- feature section end -->
+
+    <div class="container-fluid py-5">
+      <h1 class="text-center display-5 fw-bold">Site Themes & Templates</h1>
+      <div class="container d-flex justify-content-center gap-5 mt-5">
+      <div class="card border-0" style="width: 20rem ;">
+        <img src="img/site1.jpg" class="card-img-top" alt="...">
+        <div class="card-body">
+          <h5 class="card-title fs-6 fw-bold">King - Viral Magazine WordPress Theme</h5>
+          <p class="card-text">By King Themes in Blog Magazine</p><span>1.3k Sale</span> <br>
+         <p class="text-decoration-line-through d-inline-block fs-5 fw-bold">$59</p><span class="text-decoration-none fs-5 text-success fw-bold">$59</span> <br>
+          <a href="#" class="btn btn-outline-primary me-3">Live Preview </a><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-shopping-cart"><circle cx="9" cy="21" r="1"></circle><circle cx="20" cy="21" r="1"></circle><path d="M1 1h4l2.68 13.39a2 2 0 0 0 2 1.61h9.72a2 2 0 0 0 2-1.61L23 6H6"></path></svg>
+        </div>
+      </div>
+      <div class="card border-0" style="width: 20rem ;">
+        <img src="img/site2.jpg" class="card-img-top" alt="...">
+        <div class="card-body">
+          <h5 class="card-title fs-6 fw-bold">Gazek - Review Website Theme</h5>
+          <p class="card-text">By Templine in Directory Listing</p><span>1.3k Sale</span> <br>
+         <p class="text-decoration-line-through d-inline-block fs-5 fw-bold">$59</p><span class="text-decoration-none fs-5 text-success fw-bold">$59</span> <br>
+          <a href="#" class="btn btn-outline-primary me-3">Live Preview </a><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-shopping-cart"><circle cx="9" cy="21" r="1"></circle><circle cx="20" cy="21" r="1"></circle><path d="M1 1h4l2.68 13.39a2 2 0 0 0 2 1.61h9.72a2 2 0 0 0 2-1.61L23 6H6"></path></svg>
+        </div>
+      </div>
+      <div class="card border-0" style="width: 20rem ;">
+        <img src="img/site3.jpg" class="card-img-top" alt="...">
+        <div class="card-body">
+          <h5 class="card-title fs-6 fw-bold">Yena - Beauty & Cosmetic WooCommerce Theme</h5>
+          <p class="card-text">By L.A-Studio In Woo-Commerce</p><span>1.3k Sale</span> <br>
+         <p class="text-decoration-line-through d-inline-block fs-5 fw-bold">$59</p><span class="text-decoration-none fs-5 text-success fw-bold">$59</span> <br>
+          <a href="#" class="btn btn-outline-primary me-3">Live Preview </a><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-shopping-cart"><circle cx="9" cy="21" r="1"></circle><circle cx="20" cy="21" r="1"></circle><path d="M1 1h4l2.68 13.39a2 2 0 0 0 2 1.61h9.72a2 2 0 0 0 2-1.61L23 6H6"></path></svg>
+        </div>
+      </div>
+     
+      
+    </div>
+
+    <div class="container d-flex justify-content-center gap-5 mt-5">
+      <div class="card border-0" style="width: 20rem ;">
+        <img src="img/site4.jpg" class="card-img-top" alt="...">
+        <div class="card-body">
+          <h5 class="card-title fs-6 fw-bold">King - Viral Magazine WordPress Theme</h5>
+          <p class="card-text">By King Themes in Blog Magazine</p><span>1.3k Sale</span> <br>
+         <p class="text-decoration-line-through d-inline-block fs-5 fw-bold">$59</p><span class="text-decoration-none fs-5 text-success fw-bold">$59</span> <br>
+          <a href="#" class="btn btn-outline-primary me-3">Live Preview </a><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-shopping-cart"><circle cx="9" cy="21" r="1"></circle><circle cx="20" cy="21" r="1"></circle><path d="M1 1h4l2.68 13.39a2 2 0 0 0 2 1.61h9.72a2 2 0 0 0 2-1.61L23 6H6"></path></svg>
+        </div>
+      </div>
+      <div class="card border-0" style="width: 20rem ;">
+        <img src="img/site5.jpg" class="card-img-top" alt="...">
+        <div class="card-body">
+          <h5 class="card-title fs-6 fw-bold">Gazek - Review Website Theme</h5>
+          <p class="card-text">By Templine in Directory Listing</p><span>1.3k Sale</span> <br>
+         <p class="text-decoration-line-through d-inline-block fs-5 fw-bold">$59</p><span class="text-decoration-none fs-5 text-success fw-bold">$59</span> <br>
+          <a href="#" class="btn btn-outline-primary me-3">Live Preview </a><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-shopping-cart"><circle cx="9" cy="21" r="1"></circle><circle cx="20" cy="21" r="1"></circle><path d="M1 1h4l2.68 13.39a2 2 0 0 0 2 1.61h9.72a2 2 0 0 0 2-1.61L23 6H6"></path></svg>
+        </div>
+      </div>
+      <div class="card border-0" style="width: 20rem ;">
+        <img src="img/site6.jpg" class="card-img-top" alt="...">
+        <div class="card-body">
+          <h5 class="card-title fs-6 fw-bold">Yena - Beauty & Cosmetic WooCommerce Theme</h5>
+          <p class="card-text">By L.A-Studio In Woo-Commerce</p><span>1.3k Sale</span> <br>
+         <p class="text-decoration-line-through d-inline-block fs-5 fw-bold">$59</p><span class="text-decoration-none fs-5 text-success fw-bold">$59</span> <br>
+          <a href="#" class="btn btn-outline-primary me-3">Live Preview </a><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-shopping-cart"><circle cx="9" cy="21" r="1"></circle><circle cx="20" cy="21" r="1"></circle><path d="M1 1h4l2.68 13.39a2 2 0 0 0 2 1.61h9.72a2 2 0 0 0 2-1.61L23 6H6"></path></svg>
+        </div>
+      </div>
+      </div>
+      <center><a href="#" class="btn btn-dark text mt-lg-5">Get Started<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-arrow-right"><line x1="5" y1="12" x2="19" y2="12"></line><polyline points="12 5 19 12 12 19"></polyline></svg></a></center>
+    </div>
+
+    <div class="container-fluid py-5">
+      <h1 class="text-center display-5 fw-bold">WordPress Themes & Templates</h1>
+      <div class="container d-flex justify-content-center gap-5 mt-5">
+      <div class="card border-0" style="width: 20rem ;">
+        <img src="img/catwordpress.jpg" class="card-img-top" alt="...">
+        <div class="card-body">
+          <h5 class="card-title fs-6 fw-bold">King - Viral Magazine WordPress Theme</h5>
+          <p class="card-text">By King Themes in Blog Magazine</p><span>1.3k Sale</span> <br>
+         <p class="text-decoration-line-through d-inline-block fs-5 fw-bold">$59</p><span class="text-decoration-none fs-5 text-success fw-bold">$59</span> <br>
+          <a href="#" class="btn btn-outline-primary me-3">Live Preview </a><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-shopping-cart"><circle cx="9" cy="21" r="1"></circle><circle cx="20" cy="21" r="1"></circle><path d="M1 1h4l2.68 13.39a2 2 0 0 0 2 1.61h9.72a2 2 0 0 0 2-1.61L23 6H6"></path></svg>
+        </div>
+      </div>
+      <div class="card border-0" style="width: 20rem ;">
+        <img src="img/catwordpress2.jpg" class="card-img-top" alt="...">
+        <div class="card-body">
+          <h5 class="card-title fs-6 fw-bold">Gazek - Review Website Theme</h5>
+          <p class="card-text">By Templine in Directory Listing</p><span>1.3k Sale</span> <br>
+         <p class="text-decoration-line-through d-inline-block fs-5 fw-bold">$59</p><span class="text-decoration-none fs-5 text-success fw-bold">$59</span> <br>
+          <a href="#" class="btn btn-outline-primary me-3">Live Preview </a><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-shopping-cart"><circle cx="9" cy="21" r="1"></circle><circle cx="20" cy="21" r="1"></circle><path d="M1 1h4l2.68 13.39a2 2 0 0 0 2 1.61h9.72a2 2 0 0 0 2-1.61L23 6H6"></path></svg>
+        </div>
+      </div>
+      <div class="card border-0" style="width: 20rem ;">
+        <img src="img/catwordpress3.jpg" class="card-img-top" alt="...">
+        <div class="card-body">
+          <h5 class="card-title fs-6 fw-bold">Yena - Beauty & Cosmetic WooCommerce Theme</h5>
+          <p class="card-text">By L.A-Studio In Woo-Commerce</p><span>1.3k Sale</span> <br>
+         <p class="text-decoration-line-through d-inline-block fs-5 fw-bold">$59</p><span class="text-decoration-none fs-5 text-success fw-bold">$59</span> <br>
+          <a href="#" class="btn btn-outline-primary me-3">Live Preview </a><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-shopping-cart"><circle cx="9" cy="21" r="1"></circle><circle cx="20" cy="21" r="1"></circle><path d="M1 1h4l2.68 13.39a2 2 0 0 0 2 1.61h9.72a2 2 0 0 0 2-1.61L23 6H6"></path></svg>
+        </div>
+      </div>
+     
+      
+    </div>
+
+    <div class="container d-flex justify-content-center gap-5 mt-5">
+      <div class="card border-0" style="width: 20rem ;">
+        <img src="img/catwordpress4.jpg" class="card-img-top" alt="...">
+        <div class="card-body">
+          <h5 class="card-title fs-6 fw-bold">King - Viral Magazine WordPress Theme</h5>
+          <p class="card-text">By King Themes in Blog Magazine</p><span>1.3k Sale</span> <br>
+         <p class="text-decoration-line-through d-inline-block fs-5 fw-bold">$59</p><span class="text-decoration-none fs-5 text-success fw-bold">$59</span> <br>
+          <a href="#" class="btn btn-outline-primary me-3">Live Preview </a><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-shopping-cart"><circle cx="9" cy="21" r="1"></circle><circle cx="20" cy="21" r="1"></circle><path d="M1 1h4l2.68 13.39a2 2 0 0 0 2 1.61h9.72a2 2 0 0 0 2-1.61L23 6H6"></path></svg>
+        </div>
+      </div>
+      <div class="card border-0" style="width: 20rem ;">
+        <img src="img/catwordpress5.jpg" class="card-img-top" alt="...">
+        <div class="card-body">
+          <h5 class="card-title fs-6 fw-bold">Gazek - Review Website Theme</h5>
+          <p class="card-text">By Templine in Directory Listing</p><span>1.3k Sale</span> <br>
+         <p class="text-decoration-line-through d-inline-block fs-5 fw-bold">$59</p><span class="text-decoration-none fs-5 text-success fw-bold">$59</span> <br>
+          <a href="#" class="btn btn-outline-primary me-3">Live Preview </a><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-shopping-cart"><circle cx="9" cy="21" r="1"></circle><circle cx="20" cy="21" r="1"></circle><path d="M1 1h4l2.68 13.39a2 2 0 0 0 2 1.61h9.72a2 2 0 0 0 2-1.61L23 6H6"></path></svg>
+        </div>
+      </div>
+      <div class="card border-0" style="width: 20rem ;">
+        <img src="img/catwordpress6.jpg" class="card-img-top" alt="...">
+        <div class="card-body">
+          <h5 class="card-title fs-6 fw-bold">Yena - Beauty & Cosmetic WooCommerce Theme</h5>
+          <p class="card-text">By L.A-Studio In Woo-Commerce</p><span>1.3k Sale</span> <br>
+         <p class="text-decoration-line-through d-inline-block fs-5 fw-bold">$59</p><span class="text-decoration-none fs-5 text-success fw-bold">$59</span> <br>
+          <a href="#" class="btn btn-outline-primary me-3">Live Preview </a><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-shopping-cart"><circle cx="9" cy="21" r="1"></circle><circle cx="20" cy="21" r="1"></circle><path d="M1 1h4l2.68 13.39a2 2 0 0 0 2 1.61h9.72a2 2 0 0 0 2-1.61L23 6H6"></path></svg>
+        </div>
+      </div>
+      </div>
+      <center><a href="#" class="btn btn-dark text mt-lg-5">Get Started<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-arrow-right"><line x1="5" y1="12" x2="19" y2="12"></line><polyline points="12 5 19 12 12 19"></polyline></svg></a></center>
+    </div>
+
+  
+    <div class="container-fluid py-5">
+      <h1 class="text-center display-5 fw-bold">Site Themes & Templates</h1>
+      <div class="container d-flex justify-content-center gap-5 mt-5">
+      <div class="card border-0" style="width: 20rem ;">
+        <img src="img/site1.jpg" class="card-img-top" alt="...">
+        <div class="card-body">
+          <h5 class="card-title fs-6 fw-bold">King - Viral Magazine WordPress Theme</h5>
+          <p class="card-text">By King Themes in Blog Magazine</p><span>1.3k Sale</span> <br>
+         <p class="text-decoration-line-through d-inline-block fs-5 fw-bold">$59</p><span class="text-decoration-none fs-5 text-success fw-bold">$59</span> <br>
+          <a href="#" class="btn btn-outline-primary me-3">Live Preview </a><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-shopping-cart"><circle cx="9" cy="21" r="1"></circle><circle cx="20" cy="21" r="1"></circle><path d="M1 1h4l2.68 13.39a2 2 0 0 0 2 1.61h9.72a2 2 0 0 0 2-1.61L23 6H6"></path></svg>
+        </div>
+      </div>
+      <div class="card border-0" style="width: 20rem ;">
+        <img src="img/site2.jpg" class="card-img-top" alt="...">
+        <div class="card-body">
+          <h5 class="card-title fs-6 fw-bold">Gazek - Review Website Theme</h5>
+          <p class="card-text">By Templine in Directory Listing</p><span>1.3k Sale</span> <br>
+         <p class="text-decoration-line-through d-inline-block fs-5 fw-bold">$59</p><span class="text-decoration-none fs-5 text-success fw-bold">$59</span> <br>
+          <a href="#" class="btn btn-outline-primary me-3">Live Preview </a><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-shopping-cart"><circle cx="9" cy="21" r="1"></circle><circle cx="20" cy="21" r="1"></circle><path d="M1 1h4l2.68 13.39a2 2 0 0 0 2 1.61h9.72a2 2 0 0 0 2-1.61L23 6H6"></path></svg>
+        </div>
+      </div>
+      <div class="card border-0" style="width: 20rem ;">
+        <img src="img/site3.jpg" class="card-img-top" alt="...">
+        <div class="card-body">
+          <h5 class="card-title fs-6 fw-bold">Yena - Beauty & Cosmetic WooCommerce Theme</h5>
+          <p class="card-text">By L.A-Studio In Woo-Commerce</p><span>1.3k Sale</span> <br>
+         <p class="text-decoration-line-through d-inline-block fs-5 fw-bold">$59</p><span class="text-decoration-none fs-5 text-success fw-bold">$59</span> <br>
+          <a href="#" class="btn btn-outline-primary me-3">Live Preview </a><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-shopping-cart"><circle cx="9" cy="21" r="1"></circle><circle cx="20" cy="21" r="1"></circle><path d="M1 1h4l2.68 13.39a2 2 0 0 0 2 1.61h9.72a2 2 0 0 0 2-1.61L23 6H6"></path></svg>
+        </div>
+      </div>
+     
+      
+    </div>
+
+    <div class="container d-flex justify-content-center gap-5 mt-5">
+      <div class="card border-0" style="width: 20rem ;">
+        <img src="img/site4.jpg" class="card-img-top" alt="...">
+        <div class="card-body">
+          <h5 class="card-title fs-6 fw-bold">King - Viral Magazine WordPress Theme</h5>
+          <p class="card-text">By King Themes in Blog Magazine</p><span>1.3k Sale</span> <br>
+         <p class="text-decoration-line-through d-inline-block fs-5 fw-bold">$59</p><span class="text-decoration-none fs-5 text-success fw-bold">$59</span> <br>
+          <a href="#" class="btn btn-outline-primary me-3">Live Preview </a><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-shopping-cart"><circle cx="9" cy="21" r="1"></circle><circle cx="20" cy="21" r="1"></circle><path d="M1 1h4l2.68 13.39a2 2 0 0 0 2 1.61h9.72a2 2 0 0 0 2-1.61L23 6H6"></path></svg>
+        </div>
+      </div>
+      <div class="card border-0" style="width: 20rem ;">
+        <img src="img/site5.jpg" class="card-img-top" alt="...">
+        <div class="card-body">
+          <h5 class="card-title fs-6 fw-bold">Gazek - Review Website Theme</h5>
+          <p class="card-text">By Templine in Directory Listing</p><span>1.3k Sale</span> <br>
+         <p class="text-decoration-line-through d-inline-block fs-5 fw-bold">$59</p><span class="text-decoration-none fs-5 text-success fw-bold">$59</span> <br>
+          <a href="#" class="btn btn-outline-primary me-3">Live Preview </a><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-shopping-cart"><circle cx="9" cy="21" r="1"></circle><circle cx="20" cy="21" r="1"></circle><path d="M1 1h4l2.68 13.39a2 2 0 0 0 2 1.61h9.72a2 2 0 0 0 2-1.61L23 6H6"></path></svg>
+        </div>
+      </div>
+      <div class="card border-0" style="width: 20rem ;">
+        <img src="img/site6.jpg" class="card-img-top" alt="...">
+        <div class="card-body">
+          <h5 class="card-title fs-6 fw-bold">Yena - Beauty & Cosmetic WooCommerce Theme</h5>
+          <p class="card-text">By L.A-Studio In Woo-Commerce</p><span>1.3k Sale</span> <br>
+         <p class="text-decoration-line-through d-inline-block fs-5 fw-bold">$59</p><span class="text-decoration-none fs-5 text-success fw-bold">$59</span> <br>
+          <a href="#" class="btn btn-outline-primary me-3">Live Preview </a><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-shopping-cart"><circle cx="9" cy="21" r="1"></circle><circle cx="20" cy="21" r="1"></circle><path d="M1 1h4l2.68 13.39a2 2 0 0 0 2 1.61h9.72a2 2 0 0 0 2-1.61L23 6H6"></path></svg>
+        </div>
+      </div>
+      </div>
+      <center><a href="#" class="btn btn-dark text mt-lg-5">Get Started<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-arrow-right"><line x1="5" y1="12" x2="19" y2="12"></line><polyline points="12 5 19 12 12 19"></polyline></svg></a></center>
+    </div>
+
+    <div class="container-fluid py-5">
+      <h1 class="text-center display-5 fw-bold">UI Themes & Templates</h1>
+      <div class="container d-flex justify-content-center gap-5 mt-5">
+      <div class="card border-0" style="width: 20rem ;">
+        <img src="img/ui1.jpg" class="card-img-top" alt="...">
+        <div class="card-body">
+          <h5 class="card-title fs-6 fw-bold">King - Viral Magazine WordPress Theme</h5>
+          <p class="card-text">By King Themes in Blog Magazine</p><span>1.3k Sale</span> <br>
+         <p class="text-decoration-line-through d-inline-block fs-5 fw-bold">$59</p><span class="text-decoration-none fs-5 text-success fw-bold">$59</span> <br>
+          <a href="#" class="btn btn-outline-primary me-3">Live Preview </a><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-shopping-cart"><circle cx="9" cy="21" r="1"></circle><circle cx="20" cy="21" r="1"></circle><path d="M1 1h4l2.68 13.39a2 2 0 0 0 2 1.61h9.72a2 2 0 0 0 2-1.61L23 6H6"></path></svg>
+        </div>
+      </div>
+      <div class="card border-0" style="width: 20rem ;">
+        <img src="img/ui2.jpg" class="card-img-top" alt="...">
+        <div class="card-body">
+          <h5 class="card-title fs-6 fw-bold">Gazek - Review Website Theme</h5>
+          <p class="card-text">By Templine in Directory Listing</p><span>1.3k Sale</span> <br>
+         <p class="text-decoration-line-through d-inline-block fs-5 fw-bold">$59</p><span class="text-decoration-none fs-5 text-success fw-bold">$59</span> <br>
+          <a href="#" class="btn btn-outline-primary me-3">Live Preview </a><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-shopping-cart"><circle cx="9" cy="21" r="1"></circle><circle cx="20" cy="21" r="1"></circle><path d="M1 1h4l2.68 13.39a2 2 0 0 0 2 1.61h9.72a2 2 0 0 0 2-1.61L23 6H6"></path></svg>
+        </div>
+      </div>
+      <div class="card border-0" style="width: 20rem ;">
+        <img src="img/ui3.jpg" class="card-img-top" alt="...">
+        <div class="card-body">
+          <h5 class="card-title fs-6 fw-bold">Yena - Beauty & Cosmetic WooCommerce Theme</h5>
+          <p class="card-text">By L.A-Studio In Woo-Commerce</p><span>1.3k Sale</span> <br>
+         <p class="text-decoration-line-through d-inline-block fs-5 fw-bold">$59</p><span class="text-decoration-none fs-5 text-success fw-bold">$59</span> <br>
+          <a href="#" class="btn btn-outline-primary me-3">Live Preview </a><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-shopping-cart"><circle cx="9" cy="21" r="1"></circle><circle cx="20" cy="21" r="1"></circle><path d="M1 1h4l2.68 13.39a2 2 0 0 0 2 1.61h9.72a2 2 0 0 0 2-1.61L23 6H6"></path></svg>
+        </div>
+      </div>
+      </div>
+    <div class="container d-flex justify-content-center gap-5 mt-5">
+      <div class="card border-0" style="width: 20rem ;">
+        <img src="img/ui4.jpg" class="card-img-top" alt="...">
+        <div class="card-body">
+          <h5 class="card-title fs-6 fw-bold">King - Viral Magazine WordPress Theme</h5>
+          <p class="card-text">By King Themes in Blog Magazine</p><span>1.3k Sale</span> <br>
+         <p class="text-decoration-line-through d-inline-block fs-5 fw-bold">$59</p><span class="text-decoration-none fs-5 text-success fw-bold">$59</span> <br>
+          <a href="#" class="btn btn-outline-primary me-3">Live Preview </a><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-shopping-cart"><circle cx="9" cy="21" r="1"></circle><circle cx="20" cy="21" r="1"></circle><path d="M1 1h4l2.68 13.39a2 2 0 0 0 2 1.61h9.72a2 2 0 0 0 2-1.61L23 6H6"></path></svg>
+        </div>
+      </div>
+      <div class="card border-0" style="width: 20rem ;">
+        <img src="img/ui5.jpg" class="card-img-top" alt="...">
+        <div class="card-body">
+          <h5 class="card-title fs-6 fw-bold">Gazek - Review Website Theme</h5>
+          <p class="card-text">By Templine in Directory Listing</p><span>1.3k Sale</span> <br>
+         <p class="text-decoration-line-through d-inline-block fs-5 fw-bold">$59</p><span class="text-decoration-none fs-5 text-success fw-bold">$59</span> <br>
+          <a href="#" class="btn btn-outline-primary me-3">Live Preview </a><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-shopping-cart"><circle cx="9" cy="21" r="1"></circle><circle cx="20" cy="21" r="1"></circle><path d="M1 1h4l2.68 13.39a2 2 0 0 0 2 1.61h9.72a2 2 0 0 0 2-1.61L23 6H6"></path></svg>
+        </div>
+      </div>
+      <div class="card border-0" style="width: 20rem ;">
+        <img src="img/ui6.jpg" class="card-img-top" alt="...">
+        <div class="card-body">
+          <h5 class="card-title fs-6 fw-bold">Yena - Beauty & Cosmetic WooCommerce Theme</h5>
+          <p class="card-text">By L.A-Studio In Woo-Commerce</p><span>1.3k Sale</span> <br>
+         <p class="text-decoration-line-through d-inline-block fs-5 fw-bold">$59</p><span class="text-decoration-none fs-5 text-success fw-bold">$59</span> <br>
+          <a href="#" class="btn btn-outline-primary me-3">Live Preview </a><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-shopping-cart"><circle cx="9" cy="21" r="1"></circle><circle cx="20" cy="21" r="1"></circle><path d="M1 1h4l2.68 13.39a2 2 0 0 0 2 1.61h9.72a2 2 0 0 0 2-1.61L23 6H6"></path></svg>
+        </div>
+      </div>
+      </div>
+      <center><a href="#" class="btn btn-dark text mt-lg-5">Get Started<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-arrow-right"><line x1="5" y1="12" x2="19" y2="12"></line><polyline points="12 5 19 12 12 19"></polyline></svg></a></center>
+    </div>
+
+
+    <div class="container-fluid py-5">
+      <h1 class="text-center display-5 fw-bold">Template Kits Themes</h1>
+      <div class="container d-flex justify-content-center gap-5 mt-5">
+      <div class="card border-0" style="width: 20rem ;">
+        <img src="img/site1.jpg" class="card-img-top" alt="...">
+        <div class="card-body">
+          <h5 class="card-title fs-6 fw-bold">King - Viral Magazine WordPress Theme</h5>
+          <p class="card-text">By King Themes in Blog Magazine</p><span>1.3k Sale</span> <br>
+         <p class="text-decoration-line-through d-inline-block fs-5 fw-bold">$59</p><span class="text-decoration-none fs-5 text-success fw-bold">$59</span> <br>
+          <a href="#" class="btn btn-outline-primary me-3">Live Preview </a><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-shopping-cart"><circle cx="9" cy="21" r="1"></circle><circle cx="20" cy="21" r="1"></circle><path d="M1 1h4l2.68 13.39a2 2 0 0 0 2 1.61h9.72a2 2 0 0 0 2-1.61L23 6H6"></path></svg>
+        </div>
+      </div>
+      <div class="card border-0" style="width: 20rem ;">
+        <img src="img/site2.jpg" class="card-img-top" alt="...">
+        <div class="card-body">
+          <h5 class="card-title fs-6 fw-bold">Gazek - Review Website Theme</h5>
+          <p class="card-text">By Templine in Directory Listing</p><span>1.3k Sale</span> <br>
+         <p class="text-decoration-line-through d-inline-block fs-5 fw-bold">$59</p><span class="text-decoration-none fs-5 text-success fw-bold">$59</span> <br>
+          <a href="#" class="btn btn-outline-primary me-3">Live Preview </a><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-shopping-cart"><circle cx="9" cy="21" r="1"></circle><circle cx="20" cy="21" r="1"></circle><path d="M1 1h4l2.68 13.39a2 2 0 0 0 2 1.61h9.72a2 2 0 0 0 2-1.61L23 6H6"></path></svg>
+        </div>
+      </div>
+      <div class="card border-0" style="width: 20rem ;">
+        <img src="img/site3.jpg" class="card-img-top" alt="...">
+        <div class="card-body">
+          <h5 class="card-title fs-6 fw-bold">Yena - Beauty & Cosmetic WooCommerce Theme</h5>
+          <p class="card-text">By L.A-Studio In Woo-Commerce</p><span>1.3k Sale</span> <br>
+         <p class="text-decoration-line-through d-inline-block fs-5 fw-bold">$59</p><span class="text-decoration-none fs-5 text-success fw-bold">$59</span> <br>
+          <a href="#" class="btn btn-outline-primary me-3">Live Preview </a><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-shopping-cart"><circle cx="9" cy="21" r="1"></circle><circle cx="20" cy="21" r="1"></circle><path d="M1 1h4l2.68 13.39a2 2 0 0 0 2 1.61h9.72a2 2 0 0 0 2-1.61L23 6H6"></path></svg>
+        </div>
+      </div>
+      </div>
+    <div class="container d-flex justify-content-center gap-5 mt-5">
+      <div class="card border-0" style="width: 20rem ;">
+        <img src="img/site4.jpg" class="card-img-top" alt="...">
+        <div class="card-body">
+          <h5 class="card-title fs-6 fw-bold">King - Viral Magazine WordPress Theme</h5>
+          <p class="card-text">By King Themes in Blog Magazine</p><span>1.3k Sale</span> <br>
+         <p class="text-decoration-line-through d-inline-block fs-5 fw-bold">$59</p><span class="text-decoration-none fs-5 text-success fw-bold">$59</span> <br>
+          <a href="#" class="btn btn-outline-primary me-3">Live Preview </a><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-shopping-cart"><circle cx="9" cy="21" r="1"></circle><circle cx="20" cy="21" r="1"></circle><path d="M1 1h4l2.68 13.39a2 2 0 0 0 2 1.61h9.72a2 2 0 0 0 2-1.61L23 6H6"></path></svg>
+        </div>
+      </div>
+      <div class="card border-0" style="width: 20rem ;">
+        <img src="img/site5.jpg" class="card-img-top" alt="...">
+        <div class="card-body">
+          <h5 class="card-title fs-6 fw-bold">Gazek - Review Website Theme</h5>
+          <p class="card-text">By Templine in Directory Listing</p><span>1.3k Sale</span> <br>
+         <p class="text-decoration-line-through d-inline-block fs-5 fw-bold">$59</p><span class="text-decoration-none fs-5 text-success fw-bold">$59</span> <br>
+          <a href="#" class="btn btn-outline-primary me-3">Live Preview </a><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-shopping-cart"><circle cx="9" cy="21" r="1"></circle><circle cx="20" cy="21" r="1"></circle><path d="M1 1h4l2.68 13.39a2 2 0 0 0 2 1.61h9.72a2 2 0 0 0 2-1.61L23 6H6"></path></svg>
+        </div>
+      </div>
+      <div class="card border-0" style="width: 20rem ;">
+        <img src="img/site6.jpg" class="card-img-top" alt="...">
+        <div class="card-body">
+          <h5 class="card-title fs-6 fw-bold">Yena - Beauty & Cosmetic WooCommerce Theme</h5>
+          <p class="card-text">By L.A-Studio In Woo-Commerce</p><span>1.3k Sale</span> <br>
+         <p class="text-decoration-line-through d-inline-block fs-5 fw-bold">$59</p><span class="text-decoration-none fs-5 text-success fw-bold">$59</span> <br>
+          <a href="#" class="btn btn-outline-primary me-3">Live Preview </a><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-shopping-cart"><circle cx="9" cy="21" r="1"></circle><circle cx="20" cy="21" r="1"></circle><path d="M1 1h4l2.68 13.39a2 2 0 0 0 2 1.61h9.72a2 2 0 0 0 2-1.61L23 6H6"></path></svg>
+        </div>
+      </div>
+      </div>
+      <center><a href="#" class="btn btn-dark text mt-lg-5">Get Started<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-arrow-right"><line x1="5" y1="12" x2="19" y2="12"></line><polyline points="12 5 19 12 12 19"></polyline></svg></a></center>
+    </div>
+
+    <div class="container-fluid py-5">
+      <h1 class="text-center display-5 fw-bold">E-Commerce Themes & Templates</h1>
+      <div class="container d-flex justify-content-center gap-5 mt-5">
+      <div class="card border-0" style="width: 20rem ;">
+        <img src="img/catwordpress.jpg" class="card-img-top" alt="...">
+        <div class="card-body">
+          <h5 class="card-title fs-6 fw-bold">King - Viral Magazine WordPress Theme</h5>
+          <p class="card-text">By King Themes in Blog Magazine</p><span>1.3k Sale</span> <br>
+         <p class="text-decoration-line-through d-inline-block fs-5 fw-bold">$59</p><span class="text-decoration-none fs-5 text-success fw-bold">$59</span> <br>
+          <a href="#" class="btn btn-outline-primary me-3">Live Preview </a><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-shopping-cart"><circle cx="9" cy="21" r="1"></circle><circle cx="20" cy="21" r="1"></circle><path d="M1 1h4l2.68 13.39a2 2 0 0 0 2 1.61h9.72a2 2 0 0 0 2-1.61L23 6H6"></path></svg>
+        </div>
+      </div>
+      <div class="card border-0" style="width: 20rem ;">
+        <img src="img/catwordpress2.jpg" class="card-img-top" alt="...">
+        <div class="card-body">
+          <h5 class="card-title fs-6 fw-bold">Gazek - Review Website Theme</h5>
+          <p class="card-text">By Templine in Directory Listing</p><span>1.3k Sale</span> <br>
+         <p class="text-decoration-line-through d-inline-block fs-5 fw-bold">$59</p><span class="text-decoration-none fs-5 text-success fw-bold">$59</span> <br>
+          <a href="#" class="btn btn-outline-primary me-3">Live Preview </a><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-shopping-cart"><circle cx="9" cy="21" r="1"></circle><circle cx="20" cy="21" r="1"></circle><path d="M1 1h4l2.68 13.39a2 2 0 0 0 2 1.61h9.72a2 2 0 0 0 2-1.61L23 6H6"></path></svg>
+        </div>
+      </div>
+      <div class="card border-0" style="width: 20rem ;">
+        <img src="img/catwordpress3.jpg" class="card-img-top" alt="...">
+        <div class="card-body">
+          <h5 class="card-title fs-6 fw-bold">Yena - Beauty & Cosmetic WooCommerce Theme</h5>
+          <p class="card-text">By L.A-Studio In Woo-Commerce</p><span>1.3k Sale</span> <br>
+         <p class="text-decoration-line-through d-inline-block fs-5 fw-bold">$59</p><span class="text-decoration-none fs-5 text-success fw-bold">$59</span> <br>
+          <a href="#" class="btn btn-outline-primary me-3">Live Preview </a><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-shopping-cart"><circle cx="9" cy="21" r="1"></circle><circle cx="20" cy="21" r="1"></circle><path d="M1 1h4l2.68 13.39a2 2 0 0 0 2 1.61h9.72a2 2 0 0 0 2-1.61L23 6H6"></path></svg>
+        </div>
+      </div>
+     
+      
+    </div>
+
+    <div class="container d-flex justify-content-center gap-5 mt-5">
+      <div class="card border-0" style="width: 20rem ;">
+        <img src="img/catwordpress4.jpg" class="card-img-top" alt="...">
+        <div class="card-body">
+          <h5 class="card-title fs-6 fw-bold">King - Viral Magazine WordPress Theme</h5>
+          <p class="card-text">By King Themes in Blog Magazine</p><span>1.3k Sale</span> <br>
+         <p class="text-decoration-line-through d-inline-block fs-5 fw-bold">$59</p><span class="text-decoration-none fs-5 text-success fw-bold">$59</span> <br>
+          <a href="#" class="btn btn-outline-primary me-3">Live Preview </a><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-shopping-cart"><circle cx="9" cy="21" r="1"></circle><circle cx="20" cy="21" r="1"></circle><path d="M1 1h4l2.68 13.39a2 2 0 0 0 2 1.61h9.72a2 2 0 0 0 2-1.61L23 6H6"></path></svg>
+        </div>
+      </div>
+      <div class="card border-0" style="width: 20rem ;">
+        <img src="img/catwordpress5.jpg" class="card-img-top" alt="...">
+        <div class="card-body">
+          <h5 class="card-title fs-6 fw-bold">Gazek - Review Website Theme</h5>
+          <p class="card-text">By Templine in Directory Listing</p><span>1.3k Sale</span> <br>
+         <p class="text-decoration-line-through d-inline-block fs-5 fw-bold">$59</p><span class="text-decoration-none fs-5 text-success fw-bold">$59</span> <br>
+          <a href="#" class="btn btn-outline-primary me-3">Live Preview </a><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-shopping-cart"><circle cx="9" cy="21" r="1"></circle><circle cx="20" cy="21" r="1"></circle><path d="M1 1h4l2.68 13.39a2 2 0 0 0 2 1.61h9.72a2 2 0 0 0 2-1.61L23 6H6"></path></svg>
+        </div>
+      </div>
+      <div class="card border-0" style="width: 20rem ;">
+        <img src="img/catwordpress6.jpg" class="card-img-top" alt="...">
+        <div class="card-body">
+          <h5 class="card-title fs-6 fw-bold">Yena - Beauty & Cosmetic WooCommerce Theme</h5>
+          <p class="card-text">By L.A-Studio In Woo-Commerce</p><span>1.3k Sale</span> <br>
+         <p class="text-decoration-line-through d-inline-block fs-5 fw-bold">$59</p><span class="text-decoration-none fs-5 text-success fw-bold">$59</span> <br>
+          <a href="#" class="btn btn-outline-primary me-3">Live Preview </a><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-shopping-cart"><circle cx="9" cy="21" r="1"></circle><circle cx="20" cy="21" r="1"></circle><path d="M1 1h4l2.68 13.39a2 2 0 0 0 2 1.61h9.72a2 2 0 0 0 2-1.61L23 6H6"></path></svg>
+        </div>
+      </div>
+      </div>
+      <center><a href="#" class="btn btn-dark text mt-lg-5">Get Started<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-arrow-right"><line x1="5" y1="12" x2="19" y2="12"></line><polyline points="12 5 19 12 12 19"></polyline></svg></a></center>
+    </div>
+
+    <div class="container-fluid py-5">
+      <h1 class="text-center display-5 fw-bold">Marketing Template & Themes</h1>
+      <div class="container d-flex justify-content-center gap-5 mt-5">
+      <div class="card border-0" style="width: 20rem ;">
+        <img src="img/site1.jpg" class="card-img-top" alt="...">
+        <div class="card-body">
+          <h5 class="card-title fs-6 fw-bold">King - Viral Magazine WordPress Theme</h5>
+          <p class="card-text">By King Themes in Blog Magazine</p><span>1.3k Sale</span> <br>
+         <p class="text-decoration-line-through d-inline-block fs-5 fw-bold">$59</p><span class="text-decoration-none fs-5 text-success fw-bold">$59</span> <br>
+          <a href="#" class="btn btn-outline-primary me-3">Live Preview </a><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-shopping-cart"><circle cx="9" cy="21" r="1"></circle><circle cx="20" cy="21" r="1"></circle><path d="M1 1h4l2.68 13.39a2 2 0 0 0 2 1.61h9.72a2 2 0 0 0 2-1.61L23 6H6"></path></svg>
+        </div>
+      </div>
+      <div class="card border-0" style="width: 20rem ;">
+        <img src="img/site2.jpg" class="card-img-top" alt="...">
+        <div class="card-body">
+          <h5 class="card-title fs-6 fw-bold">Gazek - Review Website Theme</h5>
+          <p class="card-text">By Templine in Directory Listing</p><span>1.3k Sale</span> <br>
+         <p class="text-decoration-line-through d-inline-block fs-5 fw-bold">$59</p><span class="text-decoration-none fs-5 text-success fw-bold">$59</span> <br>
+          <a href="#" class="btn btn-outline-primary me-3">Live Preview </a><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-shopping-cart"><circle cx="9" cy="21" r="1"></circle><circle cx="20" cy="21" r="1"></circle><path d="M1 1h4l2.68 13.39a2 2 0 0 0 2 1.61h9.72a2 2 0 0 0 2-1.61L23 6H6"></path></svg>
+        </div>
+      </div>
+      <div class="card border-0" style="width: 20rem ;">
+        <img src="img/site3.jpg" class="card-img-top" alt="...">
+        <div class="card-body">
+          <h5 class="card-title fs-6 fw-bold">Yena - Beauty & Cosmetic WooCommerce Theme</h5>
+          <p class="card-text">By L.A-Studio In Woo-Commerce</p><span>1.3k Sale</span> <br>
+         <p class="text-decoration-line-through d-inline-block fs-5 fw-bold">$59</p><span class="text-decoration-none fs-5 text-success fw-bold">$59</span> <br>
+          <a href="#" class="btn btn-outline-primary me-3">Live Preview </a><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-shopping-cart"><circle cx="9" cy="21" r="1"></circle><circle cx="20" cy="21" r="1"></circle><path d="M1 1h4l2.68 13.39a2 2 0 0 0 2 1.61h9.72a2 2 0 0 0 2-1.61L23 6H6"></path></svg>
+        </div>
+      </div>
+     
+      
+    </div>
+
+    <div class="container d-flex justify-content-center gap-5 mt-5">
+      <div class="card border-0" style="width: 20rem ;">
+        <img src="img/site4.jpg" class="card-img-top" alt="...">
+        <div class="card-body">
+          <h5 class="card-title fs-6 fw-bold">King - Viral Magazine WordPress Theme</h5>
+          <p class="card-text">By King Themes in Blog Magazine</p><span>1.3k Sale</span> <br>
+         <p class="text-decoration-line-through d-inline-block fs-5 fw-bold">$59</p><span class="text-decoration-none fs-5 text-success fw-bold">$59</span> <br>
+          <a href="#" class="btn btn-outline-primary me-3">Live Preview </a><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-shopping-cart"><circle cx="9" cy="21" r="1"></circle><circle cx="20" cy="21" r="1"></circle><path d="M1 1h4l2.68 13.39a2 2 0 0 0 2 1.61h9.72a2 2 0 0 0 2-1.61L23 6H6"></path></svg>
+        </div>
+      </div>
+      <div class="card border-0" style="width: 20rem ;">
+        <img src="img/site5.jpg" class="card-img-top" alt="...">
+        <div class="card-body">
+          <h5 class="card-title fs-6 fw-bold">Gazek - Review Website Theme</h5>
+          <p class="card-text">By Templine in Directory Listing</p><span>1.3k Sale</span> <br>
+         <p class="text-decoration-line-through d-inline-block fs-5 fw-bold">$59</p><span class="text-decoration-none fs-5 text-success fw-bold">$59</span> <br>
+          <a href="#" class="btn btn-outline-primary me-3">Live Preview </a><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-shopping-cart"><circle cx="9" cy="21" r="1"></circle><circle cx="20" cy="21" r="1"></circle><path d="M1 1h4l2.68 13.39a2 2 0 0 0 2 1.61h9.72a2 2 0 0 0 2-1.61L23 6H6"></path></svg>
+        </div>
+      </div>
+      <div class="card border-0" style="width: 20rem ;">
+        <img src="img/site6.jpg" class="card-img-top" alt="...">
+        <div class="card-body">
+          <h5 class="card-title fs-6 fw-bold">Yena - Beauty & Cosmetic WooCommerce Theme</h5>
+          <p class="card-text">By L.A-Studio In Woo-Commerce</p><span>1.3k Sale</span> <br>
+         <p class="text-decoration-line-through d-inline-block fs-5 fw-bold">$59</p><span class="text-decoration-none fs-5 text-success fw-bold">$59</span> <br>
+          <a href="#" class="btn btn-outline-primary me-3">Live Preview </a><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-shopping-cart"><circle cx="9" cy="21" r="1"></circle><circle cx="20" cy="21" r="1"></circle><path d="M1 1h4l2.68 13.39a2 2 0 0 0 2 1.61h9.72a2 2 0 0 0 2-1.61L23 6H6"></path></svg>
+        </div>
+      </div>
+      </div>
+      <center><a href="#" class="btn btn-dark text mt-lg-5">Get Started<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-arrow-right"><line x1="5" y1="12" x2="19" y2="12"></line><polyline points="12 5 19 12 12 19"></polyline></svg></a></center>
+    </div>
+
+    <div class="container-fluid py-5">
+      <h1 class="text-center display-5 fw-bold">Blogging Themes & Templates</h1>
+      <div class="container d-flex justify-content-center gap-5 mt-5">
+      <div class="card border-0" style="width: 20rem ;">
+        <img src="img/site1.jpg" class="card-img-top" alt="...">
+        <div class="card-body">
+          <h5 class="card-title fs-6 fw-bold">King - Viral Magazine WordPress Theme</h5>
+          <p class="card-text">By King Themes in Blog Magazine</p><span>1.3k Sale</span> <br>
+         <p class="text-decoration-line-through d-inline-block fs-5 fw-bold">$59</p><span class="text-decoration-none fs-5 text-success fw-bold">$59</span> <br>
+          <a href="#" class="btn btn-outline-primary me-3">Live Preview </a><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-shopping-cart"><circle cx="9" cy="21" r="1"></circle><circle cx="20" cy="21" r="1"></circle><path d="M1 1h4l2.68 13.39a2 2 0 0 0 2 1.61h9.72a2 2 0 0 0 2-1.61L23 6H6"></path></svg>
+        </div>
+      </div>
+      <div class="card border-0" style="width: 20rem ;">
+        <img src="img/site2.jpg" class="card-img-top" alt="...">
+        <div class="card-body">
+          <h5 class="card-title fs-6 fw-bold">Gazek - Review Website Theme</h5>
+          <p class="card-text">By Templine in Directory Listing</p><span>1.3k Sale</span> <br>
+         <p class="text-decoration-line-through d-inline-block fs-5 fw-bold">$59</p><span class="text-decoration-none fs-5 text-success fw-bold">$59</span> <br>
+          <a href="#" class="btn btn-outline-primary me-3">Live Preview </a><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-shopping-cart"><circle cx="9" cy="21" r="1"></circle><circle cx="20" cy="21" r="1"></circle><path d="M1 1h4l2.68 13.39a2 2 0 0 0 2 1.61h9.72a2 2 0 0 0 2-1.61L23 6H6"></path></svg>
+        </div>
+      </div>
+      <div class="card border-0" style="width: 20rem ;">
+        <img src="img/site3.jpg" class="card-img-top" alt="...">
+        <div class="card-body">
+          <h5 class="card-title fs-6 fw-bold">Yena - Beauty & Cosmetic WooCommerce Theme</h5>
+          <p class="card-text">By L.A-Studio In Woo-Commerce</p><span>1.3k Sale</span> <br>
+         <p class="text-decoration-line-through d-inline-block fs-5 fw-bold">$59</p><span class="text-decoration-none fs-5 text-success fw-bold">$59</span> <br>
+          <a href="#" class="btn btn-outline-primary me-3">Live Preview </a><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-shopping-cart"><circle cx="9" cy="21" r="1"></circle><circle cx="20" cy="21" r="1"></circle><path d="M1 1h4l2.68 13.39a2 2 0 0 0 2 1.61h9.72a2 2 0 0 0 2-1.61L23 6H6"></path></svg>
+        </div>
+      </div>
+     
+      
+    </div>
+
+    <div class="container d-flex justify-content-center gap-5 mt-5">
+      <div class="card border-0" style="width: 20rem ;">
+        <img src="img/site4.jpg" class="card-img-top" alt="...">
+        <div class="card-body">
+          <h5 class="card-title fs-6 fw-bold">King - Viral Magazine WordPress Theme</h5>
+          <p class="card-text">By King Themes in Blog Magazine</p><span>1.3k Sale</span> <br>
+         <p class="text-decoration-line-through d-inline-block fs-5 fw-bold">$59</p><span class="text-decoration-none fs-5 text-success fw-bold">$59</span> <br>
+          <a href="#" class="btn btn-outline-primary me-3">Live Preview </a><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-shopping-cart"><circle cx="9" cy="21" r="1"></circle><circle cx="20" cy="21" r="1"></circle><path d="M1 1h4l2.68 13.39a2 2 0 0 0 2 1.61h9.72a2 2 0 0 0 2-1.61L23 6H6"></path></svg>
+        </div>
+      </div>
+      <div class="card border-0" style="width: 20rem ;">
+        <img src="img/site5.jpg" class="card-img-top" alt="...">
+        <div class="card-body">
+          <h5 class="card-title fs-6 fw-bold">Gazek - Review Website Theme</h5>
+          <p class="card-text">By Templine in Directory Listing</p><span>1.3k Sale</span> <br>
+         <p class="text-decoration-line-through d-inline-block fs-5 fw-bold">$59</p><span class="text-decoration-none fs-5 text-success fw-bold">$59</span> <br>
+          <a href="#" class="btn btn-outline-primary me-3">Live Preview </a><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-shopping-cart"><circle cx="9" cy="21" r="1"></circle><circle cx="20" cy="21" r="1"></circle><path d="M1 1h4l2.68 13.39a2 2 0 0 0 2 1.61h9.72a2 2 0 0 0 2-1.61L23 6H6"></path></svg>
+        </div>
+      </div>
+      <div class="card border-0" style="width: 20rem ;">
+        <img src="img/site6.jpg" class="card-img-top" alt="...">
+        <div class="card-body">
+          <h5 class="card-title fs-6 fw-bold">Yena - Beauty & Cosmetic WooCommerce Theme</h5>
+          <p class="card-text">By L.A-Studio In Woo-Commerce</p><span>1.3k Sale</span> <br>
+         <p class="text-decoration-line-through d-inline-block fs-5 fw-bold">$59</p><span class="text-decoration-none fs-5 text-success fw-bold">$59</span> <br>
+          <a href="#" class="btn btn-outline-primary me-3">Live Preview </a><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-shopping-cart"><circle cx="9" cy="21" r="1"></circle><circle cx="20" cy="21" r="1"></circle><path d="M1 1h4l2.68 13.39a2 2 0 0 0 2 1.61h9.72a2 2 0 0 0 2-1.61L23 6H6"></path></svg>
+        </div>
+      </div>
+      </div>
+      <center><a href="#" class="btn btn-dark text mt-lg-5">Get Started<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-arrow-right"><line x1="5" y1="12" x2="19" y2="12"></line><polyline points="12 5 19 12 12 19"></polyline></svg></a></center>
+    </div>
+
+
+
+
+
+    
+
+    
+    <!-- footer started -->
+    <div class="container-fluid mt-5">
+        <div class="container">
+          <footer class="py-5">
+            <div class="row">
+              <div class="col-6 col-md-2 mb-3">
+                <h5>Product</h5>
+                <ul class="nav flex-column">
+                  <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">Website Templetes</a></li>
+                  <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">Website Builder</a></li>
+                  <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">Website Design</a></li>
+                  <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">Unique Themes Featuree</a></li>
+                  <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">App Market</a></li>
+                  <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">Web Hosting</a></li>
+                  <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">Domain names</a></li>
+                  <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">Website Accesibility</a></li>
+                  <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">Mobile App Builder</a></li>
+                </ul>
+              </div>
+        
+              <div class="col-6 col-md-2 mb-3">
+                <h5>Solution</h5>
+                <ul class="nav flex-column">
+                  <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">Online Store</a></li>
+                  <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">Online booking</a></li>
+                  <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">Restaurent Website</a></li>
+                  <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">Blog Website</a></li>
+                 <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">Portfolio Website</a></li>
+                 <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">Enterprises Solutions</a></li>
+                 <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">Student Website</a></li>
+                 <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">Business Email</a></li><li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">Profession Tools</a></li>
+                 <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">Logo Market</a></li>
+                </ul>
+              </div>
+        
+              <div class="col-6 col-md-2 mb-3">
+                <h5>Learn</h5>
+                <ul class="nav flex-column">
+                  <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">Unique Theme Blog</a></li>
+                  <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">Privacy snd Security Hub</a></li>
+                  <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary"> SEO Learnig Hub</a></li>
+                  <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">Unique Themes ENclopydia</a></li>
+      
+                </ul>
+              </div>
+        
+              
+                <div class="col-6 col-md-2 mb-3">
+                  <h5>Support</h5>
+                  <ul class="nav flex-column">
+                    <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">Help Center</a></li>
+                    <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">Hire a Profession</a></li>
+                    <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">Report Abuse</a></li>
+                    <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">System Status</a></li>
+        
+                  </ul>
+                </div>  
+              
+      
+              <div class="col-6 col-md-2 mb-3">
+                <h5>Company</h5>
+                <ul class="nav flex-column">
+                  <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">Press % Media</a></li>
+                  <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">Investor Relation</a></li>
+                  <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">Site Map</a></li>
+                  <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">Career</a></li>
+      
+                </ul>
+              </div>
+      
+              <div class="col-6 col-md-2 mb-3">
+                <img src="img/favicon.ico" alt="" class="w-25">
+                <ul class="nav flex-column">
+                  <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">About</a></li>
+                  <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">Contact</a></li>
+      
+                </ul>
+              </div>
+            </div>
+        
+            <div class="d-flex flex-column flex-sm-row justify-content-between py-4 my-4 border-top">
+              <p>© 2024 Unique Theme, Inc. All rights reserved.</p>
+              <ul class="list-unstyled d-flex">
+                <li class="ms-3"><a class="link-body-emphasis" href="#"><svg class="bi" width="24" height="24"><use xlink:href="#twitter"></use></svg></a></li>
+                <li class="ms-3"><a class="link-body-emphasis" href="#"><svg class="bi" width="24" height="24"><use xlink:href="#instagram"></use></svg></a></li>
+                <li class="ms-3"><a class="link-body-emphasis" href="#"><svg class="bi" width="24" height="24"><use xlink:href="#facebook"></use></svg></a></li>
+              </ul>
+            </div>
+          </footer>
+        </div>
+      </div>
+    <!-- footer end -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+</body>
+</html>

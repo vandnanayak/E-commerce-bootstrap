@@ -1,0 +1,10 @@
+nav ul li:hover .dropdown-menu{
+    display: block !important;
+}
+#cardimg{
+    transform: translateY(50px);
+    transition: 0.5s;
+}
+#cardtop:hover #cardimg{
+    transform: translateY(0);
+}
